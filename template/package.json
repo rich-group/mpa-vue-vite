@@ -10,6 +10,14 @@
     "mpa",
     "esm"
   ],
+  "scripts": {
+    "dev:sit": "vite -c vite.config.js --mode sit",
+    "dev:pre": "vite -c vite.config.js --mode pre",
+    "dev:prd": "vite -c vite.config.js --mode prd",
+    "build:sit": "npx vite build -c vite.config.js --mode sit",
+    "build:pre": "npx vite build -c vite.config.js --mode pre",
+    "build:prd": "npx vite build -c vite.config.js --mode prd"
+  },
   "license": "ISC",
   "dependencies": {
     "axios": "^0.26.1",
